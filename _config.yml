@@ -1,0 +1,22 @@
+# Basic Site Info
+title: Hel's Hangout
+description: "Welcome to Hel"
+author: Hel Roth
+
+# Site Flag
+flag:
+  show: true
+  path: /assets/flag.png
+
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
